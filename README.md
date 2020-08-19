@@ -16,11 +16,11 @@
    python3 main.py
    ```
 3. 安装 Python 解释器 (Linux/MacOS) 的小朋友请看这里：
-  ```shell
-  git clone "https://github.com/CristimeCai/Encrypt_Pswd.git"
-  cd Encrypt_Pswd/src
-  python3 main_linux.py
-  ```
+   ```shell
+   git clone "https://github.com/CristimeCai/Encrypt_Pswd.git"
+   cd Encrypt_Pswd/src
+   python3 main_linux.py
+   ```
    此刻，你就能看到图中的显示效果啦 QAQ
 
 ### 三、后记
