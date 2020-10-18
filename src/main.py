@@ -2,9 +2,8 @@
 # @Time : 2020/8/7 0:15
 # @Author : Cristime
 # @File : main.py
-# @Software: PyCharm
+# @Software: NeoVim(Vim Like)
 
-import os
 
 Char_Case = int(5)
 
@@ -32,7 +31,7 @@ def Encrypt(Passwd):
         print("")
     except Exception as Error:
         print("An error occurred: ", Error)
-    os.system("pause")
+    pause()
 
 
 # 解密
@@ -46,7 +45,8 @@ def Decrypt(Passwd):
                 print(chr(ord(Passwd[i]) - int(Char_Case)), end='')
     except Exception as Error:
         print("An error occurred: ", Error)
-    os.system("pause")
+    print()
+    pause()
 
 
 # 主界面
@@ -73,6 +73,9 @@ def GetInput(mode):
         passwd = input("Enter the encrypted password: ")
         Decrypt(passwd)
 
+# 暂停函数
+def pause():
+    tmp = input("Please input ENTER to continue. ")
 
 # 程序从这里开始
 if __name__ == "__main__":
